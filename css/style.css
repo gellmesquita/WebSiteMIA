@@ -1,0 +1,95 @@
+.conteudo-1{
+    float: left;
+    width: 30%;
+    height: 80vh;
+    border-radius: 10px;
+}
+
+
+.area2{
+    width: 100%;
+}
+
+.a-1{
+    width: 50%;
+    height: 80vh;
+    float: left;
+    padding-left: 2%;
+}
+.a-4{
+    width: 50%;
+    height: 80vh;
+    border-radius: 10px;
+    float: left;
+    background-image: url('../img/depositphotos_6310589-stock-photo-funny-robot-stay-with-headphones.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+
+.area3{
+    width: 100%;
+}
+.time{
+    width: 80%;
+    margin:5px auto;
+}
+.time-1{
+    float: left;
+    height: 60vh;
+    width: 33.333%;
+    border: 1px solid black;
+}
+.our-work{
+    margin-top: 40px;
+    height: 80vh;
+    width: 100%;
+}
+.our-work>h1{
+    text-align: center;
+}
+.ow{
+    margin-top: 5%;
+    height: 60vh;
+    width: 100%; 
+}
+.work-1{
+    width: 50%;
+    float: left;
+    height: inherit;
+}
+.w1{
+    width: 50%;
+    float: left;
+    height: inherit; 
+}
+.w16{
+    width: 50%;
+    float: left;
+    height: 60vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url('../img/fundo-de-tecnologia-futurista-robotica-industrial_10307-1147.jpg');
+}
+.w1>p{
+    margin:0% 3%;
+}
+.work-1>p{
+    margin:0% 3%;
+}
+.work-11{
+    width: 50%;
+    float: left;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url('../img/fundo-de-tecnologia-futurista-robotica-industrial_10307-1147.jpg');   
+}
+.conteudo{
+    position: absolute;
+    left: 30%;
+    top:20%;
+    width: 40%;
+    text-align: center;
+}
