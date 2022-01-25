@@ -31,14 +31,21 @@
           </ul>
     
           <div class="col-md-3 text-end">
-            <button type="button" class="btn rounded-pill btn-outline-primary me-2">Entrar</button>
-            <button type="button" class="btn rounded-pill btn-primary">Registrar-se</button>
+            <div class="btn-group">
+              <button type="button" class="btn btn-primary rounded-pill dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                Registrar-se
+              </button>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="./formCadastro.html">Seminário</a></li>
+                <li><a class="dropdown-item" href="./formPaletra.html">Palestra</a></li>
+              </ul>
+            </div>
           </div>
         </header>
       </div>
 <div class="mt-5">
-<div style="padding-top: 300px;height: 570px;display: ;justify-content: center;background-image: url(assets/schedule_page.jpg);background-size:cover;background-repeat: no-repeat;background-attachment: fixed;" class="px-4 px-xl-5" style="padding-top:200px; height: 570px; display: ; justify-content: center; background-image: url(assets/schedule_page.jpg);background-size:cover;background-repeat: no-repeat;background-attachment: fixed;">
-              <h1 style="width% !important; " class="fw-bold text-white display-4"> Contacte-nos</h1>
+<div style="padding-top: 350px;height: 570px;justify-content: center;background-image: url(assets/schedule_page.jpg);background-size:cover;background-repeat: no-repeat;background-attachment: fixed;" class="px-4 px-xl-5" style="padding-top:200px; height: 570px; display: ; justify-content: center; background-image: url(assets/schedule_page.jpg);background-size:cover;background-repeat: no-repeat;background-attachment: fixed;">
+              <h1 class="fw-bold text-white display-4"> Contacte-nos</h1>
 <p style="width: 50% !important; "  class=" text-white d-flex justify-content-center">Entre em contacto com a MIA caso tenha uma mensagem ou sugestão. Tudo isso com apenas um clique!</p>    
 <!-- <button class="bg-primary text-white shadow-lg border-0 rounded-pill py-3 px-5">  Assistir vídeo <i class="fa fa-play ms-2"></i></button> -->
  
@@ -66,7 +73,7 @@
             <div class="col-md-4 themed-grid-col">
               <div class="d-flex flex-column justify-content-center align-items-center">
 <i class="fa fa-mobile display-3"></i>
-<p class="fs-4">Telefone</p>
+<p class="fs-4">Localização</p>
 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt culpa tempore alias inventore aut vel</p>              
 
 </div>
@@ -74,14 +81,13 @@
             <div class="col-md-4 themed-grid-col"> <div class="d-flex flex-column justify-content-center align-items-center">
 <i class="fa fa-mobile display-3"></i>
 <p class="fs-4">Telefone</p>
-<p>+244 999999999 <br> +244 999999999</p> 
-         
+<a href="">+244 990 683 483</a>         
 
 </div></div>
             <div class="col-md-4 themed-grid-col"> <div class="d-flex flex-column justify-content-center align-items-center">
 <i class="fa fa-envelope-o display-3"></i>
 <p class="fs-4">E-mail</p>
-<p>email@exemplo.com <br> email@exemplo.com</p> 
+<a href="mia@inefor.ao">mia@inefor.ao</a>
 </div></div>
           </div>
 
@@ -197,48 +203,55 @@
 </main>
 
 
-      
-<div class="container mt-xl-5 border-top">
-    <footer class="py-5">
-      <div class="row">
-        
-  
-        
-  
-        <div class="col-5">
-          <h5 class="bolder">M <span class="text-primary">I</span> A</h5>
-          <ul class="nav">
-            <li class="nav-item mb-2 me-2"><a href="#" class="nav-link p-0 text-muted">Termos e condições</a></li>
-            <li class="nav-item mb-2 me-2"><a href="#" class="nav-link p-0 text-muted">Perguntas frequêntes</a></li>
-            <li class="nav-item mb-2 me-2"><a href="#" class="nav-link p-0 text-muted">Reportar um problema?</a></li>
-            <li class="nav-item mb-2 me-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
-          </ul>
-        </div>
-  
-        <div class="col-4 offset-1">
-          <form>
-            <h4>Se inscrever<br>
-                </h4>
-            <p>Receba as novidades da nossa plataforma.</p>
-            <div class="d-flex w-100 gap-2">
-              <label for="newsletter1" class="visually-hidden">Email address</label>
-              <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
-              <button class="btn btn-primary" type="button">Inscrever</button>
-            </div>
-          </form>
-        </div>
-      </div>
-  
-      <div class="d-flex justify-content-between py-4 my-4 border-top">
-        <p>© 2022 MIA Company.</p>
-        <ul class="list-unstyled d-flex">
-          <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"></use></svg></a></li>
-          <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"></use></svg></a></li>
-          <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"></use></svg></a></li>
+<div class="container-fuid p-5 bg-dark text-white">
+  <footer class="py-5">
+    <div class="row">
+
+
+
+
+      <div class="col-5">
+        <h5 class="bolder">M <span class="text-primary">I</span> A</h5>
+        <ul class="nav">
+          <li class="nav-item mb-2 me-2"><a href="#" class="nav-link p-0 text-muted">Termos e condições</a></li>
+          <li class="nav-item mb-2 me-2"><a href="#" class="nav-link p-0 text-muted">Perguntas frequêntes</a></li>
+          <li class="nav-item mb-2 me-2"><a href="#" class="nav-link p-0 text-muted">Reportar um problema?</a></li>
+          <li class="nav-item mb-2 me-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
         </ul>
       </div>
-    </footer>
-  </div>
-    <script src="bootstrap-5.1.3/bootstrap-5.1.3/dist/js/bootstrap.min.js"></script>
+
+      <div class="col-4 offset-1">
+        <form>
+          <h4>Notificar<br>
+          </h4>
+          <p>Receba as novidades da nossa plataforma.</p>
+          <div class="d-flex w-100 gap-2">
+            <label for="newsletter1" class="visually-hidden">Email address</label>
+            <input id="newsletter1" type="text" class="form-control" style="height: 50px;"
+              placeholder="Email address">
+            <button class="btn btn-primary" type="button">Inscrever</button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <div class="d-flex justify-content-between py-4 my-4 border-top">
+      <p>© 2022 MIA Company.</p>
+      <ul class="list-unstyled d-flex">
+        <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24">
+              <use xlink:href="#twitter"></use>
+            </svg></a></li>
+        <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24">
+              <use xlink:href="#instagram"></use>
+            </svg></a></li>
+        <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24">
+              <use xlink:href="#facebook"></use>
+            </svg></a></li>
+      </ul>
+    </div>
+  </footer>
+</div>
+<script src="bootstrap-5.1.3/bootstrap-5.1.3/dist/js/bootstrap.min.js"></script>
+<script src="bootstrap-5.1.3/bootstrap-5.1.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
