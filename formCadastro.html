@@ -50,17 +50,21 @@
                         <h1>Cadastra-se para o Seminário</h1>
                     </div>
                     <div class="card-body">
-                        <form>
+                        <form action="https://formsubmit.co/iamgelson@gmail.com" method="post">
                             <div class="mb-3">
-                                <input type="text" placeholder="Digite seu nome" class="form-control" id="exampleInputPassword1">
+                                <input name="Nome" type="text" placeholder="Digite seu nome" class="form-control" id="exampleInputPassword1">
                               </div>                            
                             <div class="mb-3">
-                              <input type="email" placeholder="Digite seu email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                              <input name="Email" type="email" placeholder="Digite seu email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
                             </div>
                             <div class="flex-row d-flex">
-                              <input type="text" placeholder="Digite seu numero" class="form-control" style="margin-right:8px"  id="exampleCheck1">
-                              <input type="text" placeholder="Digite sua Localização" class="form-control"  id="exampleCheck1">
+                              <input name="Numero" type="text" placeholder="Digite seu numero" class="form-control" style="margin-right:8px"  id="exampleCheck1">
+                              <input name="Localização" type="text" placeholder="Digite sua Localização" class="form-control"  id="exampleCheck1">
+                              <input type="hidden" name="Inscrição" value="Para um Seminário">
+                              <input type="hidden" name="_next" value="http://127.0.0.1:5500/index.html">
                             </div><br>
+                            <input type="hidden" name="_captcha" value="false">
+                            <input type="hidden" name="_template" value="table">
                             <button type="submit" class="btn btn-primary">Enviar inscrição</button>
                         </form>
                     </div>
