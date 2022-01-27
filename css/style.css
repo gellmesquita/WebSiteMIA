@@ -1,0 +1,7 @@
+.navg li a{
+    border-bottom:3px solid #fff;
+}
+
+.navg li a:hover{
+     border-bottom:3px solid #e31030;
+}
